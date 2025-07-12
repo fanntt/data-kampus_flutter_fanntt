@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 import '../../model/kampus_model.dart';
 
 class ApiService {
-  final String baseUrl = 'http://192.168.45.234:8000/api/data-kampus'; // ganti dengan URL kamu
+  final String baseUrl = 'http://192.168.100.224:8000/api/data-kampus'; // ganti dengan URL kamu
 
 
   Future<List<Kampus>> getAllKampus() async {
